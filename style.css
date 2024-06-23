@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/*    background: linear-gradient(120deg, #000000, #434343);*/
+
     color: #333;
     background: linear-gradient(90deg, #000000, #007bff);
     line-height: 1.6;
@@ -16,7 +16,7 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Header Styles */
+
 header {
     background: linear-gradient(90deg, #000000, #007bff);
     color: #fff;
@@ -31,7 +31,7 @@ header h1 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Navigation Styles */
+
 nav.hidden {
     display: none;
 }
@@ -70,7 +70,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
-/* Jumbotron Styles */
+
 .jumbotron {
     position: relative;
     padding: 220px 0;
@@ -133,7 +133,7 @@ nav ul li a:hover {
     }
 }
 
-/* Main Content Styles */
+
 .container {
     font-family: sans-serif;
     max-width: 1200px;
@@ -164,7 +164,7 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
-/* Button Styles */
+
 .btn {
     display: inline-block;
     background: linear-gradient(90deg, #007bff, #0056b3);
@@ -183,7 +183,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
-/* Social Media Icons */
+
 .social-icons {
     margin-top: 20px;
     text-align: center;
@@ -201,7 +201,7 @@ nav ul li a:hover {
     transform: scale(1.2);
 }
 
-/* Footer Styles */
+
 footer {
     font-family: sans-serif;
     background: linear-gradient(90deg, #333, #555);
@@ -211,7 +211,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Skills Section */
 #skills {
     margin: 99px 0;
     padding: 50px;
@@ -259,7 +258,7 @@ footer {
     transition: width 1s ease-in-out;
 }
 
-/* Flag Styles */
+
 .flag-icon {
     width: 24px;
     height: 22px;
@@ -269,12 +268,12 @@ footer {
     vertical-align: middle;
 }
 
-/* Contact Section Styles */
+
 #contact {
     font-family: sans-serif;
     margin-top: 60px;
     text-align: center;
-    padding: 50px 20px; /* Updated padding values */
+    padding: 50px 20px; 
     color: #fff;
 }
 
