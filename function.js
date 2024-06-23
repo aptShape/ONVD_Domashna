@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Typing animation for the welcome message
+    
     const typingText = "Welcome, DJ Shape's Official Website";
     let index = 0;
     const typingElement = document.querySelector('.typing');
